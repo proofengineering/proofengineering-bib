@@ -80,20 +80,22 @@ SETUP -- if you use a Makefile to process your paper
 2. Add "bib-update" as a dependency of your default target (such as "all").
 3. Add the following rules to your Makefile.
 
-    export BIBINPUTS ?= .:bib
-    bib:
-    ifdef PEBIB
+```
+export BIBINPUTS ?= .:bib
+bib:
+ifdef PEBIB
 	    ln -s ${PEBIB} $@
-    else
+else
 	    git clone https://github.com/proofengineering/proofengineering-bib.git $@
-    endif
-    .PHONY: bib-update
-    bib-update: bib
-    # Even if this command fails, it does not terminate the make job.
-    # However, to skip it, invoke make as:  make NOGIT=1 ...
-    ifndef NOGIT
+endif
+.PHONY: bib-update
+bib-update: bib
+# Even if this command fails, it does not terminate the make job.
+# However, to skip it, invoke make as:  make NOGIT=1 ...
+ifndef NOGIT
 	    -(cd bib && git pull && make)
-    endif
+endif
+```
 
 
 SETUP -- non-Makefile version

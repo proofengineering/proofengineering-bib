@@ -1,0 +1,247 @@
+%% BibTeX abbreviations -- master file
+%% Type "make" in the bib directory to process this with the bib-abbreviate
+%%   script, which creates bibstring-{un}abbrev.bib.
+%% Each string{...} entry may contain an extra ``= "..."'' element which is
+%%   used as the abbreviation.
+
+%%% See file mernst/abbreviations for the abbreviations available in the
+%%% standard BibTeX styles (abbrev, alpha, plain, unsrt).
+
+%%% Don't put cross references here; they should go after all references.
+%%% A problem with cross references is that they don't just provide
+%%% defaults:  the cross-referenced item shows up itself if it is
+%%% referenced more than once.
+
+
+%%% ========================================================================
+%%% Built-in abbreviations
+
+% The following abbreviations are available in the standard BibTeX
+% styles (abbrev, alpha, plain, unsrt).
+% acmcs:  ACM Computing Surveys;
+%         ACM Comput. Surv.
+% acta:   Acta Informatica;
+%         Acta Inf.
+% cacm:   Communications of the ACM;
+%         Commun. ACM
+% ibmjrd: IBM Journal of Research and Development;
+%         IBM J. Res. Dev.
+% ibmsj:  IBM Systems Journal;
+%         IBM Syst.~J.
+% ieeese: IEEE Transactions on Software Engineering;
+%         IEEE Trans. Softw. Eng.
+% ieeetc: IEEE Transactions on Computers;
+%         IEEE Trans. Comput.
+% ieeetcad: IEEE Transactions on Computer-Aided Design of Integrated Circuits;
+%          IEEE Trans. Comput.-Aided Design Integrated Circuits
+% ipl:    Information Processing Letters;
+%         Inf. Process. Lett.
+% jacm:   Journal of the ACM;
+%         J.~ACM
+% jcss:   Journal of Computer and System Sciences;
+%         J.~Comput. Syst. Sci.
+% scp:    Science of Computer Programming;
+%         Sci. Comput. Programming
+% sicomp: SIAM Journal on Computing;
+%         SIAM J. Comput.
+% tcs:    Theoretical Computer Science;
+%         Theor. Comput. Sci.
+% tocs:   ACM Transactions on Computer Systems;
+%         ACM Trans. Comput. Syst.
+% tods:   ACM Transactions on Database Systems;
+%         ACM Trans. Database Syst.
+% tog:    ACM Transactions on Graphics;
+%         ACM Trans. Gr.
+% toms:   ACM Transactions on Mathematical Software;
+%         ACM Trans. Math. Softw.
+% toois:  ACM Transactions on Office Information Systems;
+%         ACM Trans. Office Inf. Syst.
+% toplas: ACM Transactions on Programming Languages and Systems;
+%         ACM Trans. Prog. Lang. Syst.
+
+
+%%% ========================================================================
+%%% Months
+
+% These are built into plain.bst.  I can override them here only if they
+% precede all uses of the macros later in this file.
+@string{jan = "January" = "Jan."}
+@string{feb = "February" = "Feb."}
+@string{mar = "March" = "Mar."}
+@string{apr = "April" = "Apr."}
+@string{may = "May" = "May"}
+@string{jun = "June" = "June"}
+@string{jul = "July" = "July"}
+@string{aug = "August" = "Aug."}
+@string{sep = "September" = "Sep."}
+@string{oct = "October" = "Oct."}
+@string{nov = "November" = "Nov."}
+@string{dec = "December" = "Dec."}
+
+
+%%% ========================================================================
+%%% Accented place names
+
+% These definitions must also precede uses later in the file.
+
+@string{Aarhus = "{\AA}arhus, Denmark"}
+@string{Jyvaskyla = "Jyv{\"{a}}skyl{\"{a}}, Finland"}
+@string{Malaga = "M{\'a}laga, Spain"}
+
+% The accents belong in French, but do not belong in English
+@string{Montreal = "Montreal, Canada"}
+% string{Montreal = "Montreal, QC, Canada"}
+% string{Montreal = "Montreal, Quebec, Canada"}
+% string{Montreal = "Montr{\'e}al, Canada"}
+% string{Montreal = "Montr{\'e}al, Qu{\'e}bec, Canada"}
+
+@string{Zurich = "Z{\"u}rich, Switzerland"}
+
+
+%%% ========================================================================
+%%% Research labs and schools
+
+@string{CMUHCII = "Human-Computer Interaction Institute, School of Computer Science, Carnegie Mellon University" = "CMU HCII"}
+@string{CMUISR = "Institute for Software Research, School of Computer Science, Carnegie Mellon University" = "CMU ISR"}
+@string{CMUSCS = "School of Computer Science, Carnegie Mellon University" = "CMU SCS"}
+@string{CMUaddr = "Pittsburgh, PA"}
+
+@string{ETHZ = "ETH Z{\"u}rich"}
+@string{ETHZaddr = "Z{\"u}rich, Switzerland"}
+
+@string{PARC   = "Xerox Corporation Palo Alto Research Center"}
+@string{PurdueSERC = "Software Engineering Research Center, Purdue University"
+               = "SERC, Purdue"}
+
+@string{MIT    = "Massachusetts Institute of Technology"}
+% string{MITEECS = "Massachusetts Institute of Technology Department of
+% 		 Electrical Engineering and Computer Science" = "MIT
+% 		 Dept. of EECS"}
+% string{MITLCS = "Massachusetts Institute of Technology Laboratory for
+% 		 Computer Science" = "MIT Lab for Computer Science"}
+% string{MITAI = "Massachusetts Institute of Technology Artificial
+% 		 Intelligence Laboratory" = "MIT AI Lab"}
+@string{MITEECS = "MIT Department of Electrical Engineering and Computer Science" = "MIT Dept. of EECS"}
+@string{MITLCS = "MIT Laboratory for Computer Science"
+                 = "MIT Lab for Computer Science"}
+@string{MITAI = "MIT Artificial
+		 Intelligence Laboratory" = "MIT AI Lab"}
+@string{MITCSAIL = "MIT Computer Science and Artificial Intelligence Laboratory"
+                 = "MIT CSAIL"}
+@string{MITSloan = "MIT Sloan School of Management Science" = "MIT Sloan School of Management"}
+@string{MITaddr = "Cambridge, MA" = ""}
+
+@string{MSRaddr = "Redmond, WA" = ""}
+
+@string{IBMTJWatson = "IBM T.J. Watson Research Center"}
+% Most common
+@string{IBMHawthorne = "Hawthorne, NY" = ""}
+
+@string{UBCCS = "University of British Columbia Department of Computer Science" =
+                  "U. Brit. Columb. Dept. of Comp. Sci."}
+@string{UBCCSaddr = "Vancouver, BC, Canada"}
+@string{UBC = "University of British Columbia" =
+                  "U. Brit. Columbia"}
+@string{UBCaddr = "Vancouver, BC, Canada"}
+@string{UBCcircle = "cIRcle: UBC's Digital Repository" = "cIRcle"}
+
+@string{UIUC = "University of Illinois at Urbana-Champaign" = "UIUC"}
+@string{UIUCaddr = "Urbana, IL, USA"}
+
+@string{UWCSE = "University of Washington Department of Computer Science and Engineering" =
+                  "U. Wash. Dept. of Comp. Sci. \& Eng."}
+@string{UWCSEaddr = "Seattle, WA, USA"}
+
+% Perhaps add "Computer Sciences Department"
+@string{UWMadison = "University of Wisconsin -- Madison"}
+@string{UWMadisonaddr = "1210 West Dayton Street, Madison, WI 53706, USA" =
+                  "Madison, WI"}
+
+@string{WRL    = "Digital Equipment Corporation Western Research Laboratory"}
+
+
+%%% ========================================================================
+%%% Book series
+
+% Isn't this supposed to be built-in?
+@string{LNCS   = "Lecture Notes in Computer Science" = "LNCS"}
+
+
+%%% ========================================================================
+%%% Journal titles
+
+% "SCP" is built into plain.bst.
+% The others are built into plain.bst, but I can override them here.
+@string{CACM     = "Communications of the ACM" = "CACM"}
+@string{JACM     = "Journal of the ACM" = "JACM"}
+@string{TOPLAS   = "ACM Transactions on Pro\-gramming Languages and Systems"
+		= "ACM TOPLAS"}
+@string{IEEESE  = "IEEE Transactions on Software Engineering" = "IEEE TSE"}
+% built in: @string{SCP     = "Science of Computer Programming"}
+@string{IEEETC  = "IEEE Transactions on Computers" = "IEEE Trans. Comput."}
+
+%% The below entries do not override anything that is built in.
+
+@string{AnnalsSE = "Annals of Software Engineering"}
+
+% The word "Journal" isn't in the title of the journal.
+@string{ASEjournal = "Automated Software Engineering Journal" = "ASE"}
+@string{JASE = "Automated Software Engineering" = "ASE"}
+
+@string{ACMQueue = "ACM Queue" = "Queue"}
+@string{computer = "IEEE Computer" = "Computer"}
+@string{CPE     = "Concurrency: Practice and Experience"}
+@string{CSUR    = "ACM Computing Surveys" = "ACM Comput.\ Surv."}
+@string{CSURVEYS = "ACM Computing Surveys" = "ACM Comput.\ Surv."}
+@string{ENTCS   = "Electronic Notes in Theoretical Computer Science" = "ENTCS"}
+@string{JEmpiricalSE = "Journal of Empirical Software Engineering" = "Empirical Softw. Engg."}
+@string{IandC   = "Information and Computation"}
+@string{IST  = "Information and Software Technology"}
+@string{IJCM    = "International Journal of Computer Mathematics" = "IJCM"}
+@string{j-systems-and-software = "Journal of Systems and Software" = "J. Syst. Softw."}
+@string{JCSS    = "Journal of Computer and System Sciences" = "J. Comp. Syst. Sci."}
+@string{JOT     = "Journal of Object Technology" = "J. Object Tech."}
+@string{LOPLAS  = "ACM Letters on Programming Languages and Systems"
+                = "ACM LOPLAS"}
+@string{JLAP    = "Journal of Logic and Algebraic Progamming" = "JLAP"}
+@string{JSAC    = "IEEE Journal on Selected Areas in Communications" = "J. Sel. Areas in Commun."}
+@string{SIGPLANNotices = "ACM SIGPLAN Notices"}
+@string{IEEESoftware = "IEEE Software" = "IEEE Softw."}
+@string{IEEETR = "IEEE Transactions on Reliability" = "IEEE Trans. Reliab."}
+@string{OSR     = "SIGOPS Operating Systems Review" = "SIGOPS Oper. Syst. Rev."}
+@string{SEN     = "ACM SIGSOFT Software Engineering Notes" = "ACM Softw. Eng. Notes"}
+@string{SPE     = "Software: Practice and Experience"}
+@string{j-SPE   = SPE}
+
+@string{STTT = "Software Tools for Technology Transfer" = "STTT"}
+
+@string{STVR    = "Journal of Software Testing, Verification and Reliability" = "STVR"}
+@string{TDSC    = "IEEE Transactions on Dependable and Secure Computing" = "TDSC"}
+@string{TOCHI   = "ACM Transactions on Computer-Human Interaction" = "ACM TOCHI"}
+@string{TOSEM   = "ACM Transactions on Software Engineering and Methodology"
+		= "ACM TOSEM"}
+@string{TVCG    = "IEEE Transactions on Visualization and Computer Graphics" = "TVCG"}
+@string{TWEB    = "ACM Transactions on the Web" = "ACM TWEB"}
+@string{TISSEC  = "ACM Transactions on Information and System Security"
+                = "ACM TISSEC"}
+@string{TPDS    = "IEEE Transactions on Parallel and Distributed Systems"
+		= "IEEE Trans. Parallel Distrib. Syst."}
+@string{IEEETSE = IEEESE}
+@string{TSE     = IEEESE}
+% built in: @string{SCP     = "Science of Computer Programming"}
+@string{IPAM    = "Information Processing \& Management"}
+
+@string{PTRSLB   = "Philosophical Transactions of the Royal Society of London, Series B" = "Phil.\ Trans.\ Royal Soc., B"}
+@string{IJMMS   = "International Journal of Man-Machine Studies" = "Int'l. J. Man-Machine Studies"}
+
+
+%% bp (and maybe other programs) fail if string{...} is the last thing in
+%% the file.  Thus, this comment.  (Yuck.)
+
+%% A problem with this after-save-hook is that it blows away any existing
+%% *compilation* buffer.  Let's hope this isn't too big an annoyance.
+%%% Local Variables:
+%%% auto-fill-function: nil
+%%% eval: (make-local-variable 'after-save-hook)
+%%% eval: (add-hook 'after-save-hook '(lambda () (save-window-excursion (let ((compilation-ask-about-save nil)) (compile "make")))))
+%%% End:

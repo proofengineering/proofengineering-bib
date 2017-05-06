@@ -1,13 +1,11 @@
-language: java
-
+language: c
 script: make test
-
 sudo: false
 addons:
   apt:
     packages:
       - texlive
       - texlive-latex-extra
-
+      - asciidoctor
 git:
   depth: 9

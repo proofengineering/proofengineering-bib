@@ -1,5 +1,9 @@
-proofengineering-bib:  collection of BibTeX bibliography files
-===================================================
+proofengineering-bib
+====================
+
+[![Build Status](https://api.travis-ci.org/proofengineering/proofengineering-bib.svg?branch=master)](https://travis-ci.org/proofengineering/proofengineering-bib)
+
+A collection of proof engineering BibTeX bibliography files.
 
 To obtain the bibliographies, run:
 

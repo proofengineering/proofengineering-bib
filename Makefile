@@ -11,6 +11,7 @@ BIBFILES := $(shell ls *.bib | grep -v bibstring-unabbrev.bib | grep -v bibstrin
 
 clean: bibtest-aux-clean
 	rm -f bibstring-unabbrev.bib bibstring-abbrev.bib bibroot bibtest.tex
+	rm -rf docs
 
 docs/index.html: README.md
 	asciidoctor $< --out-file=$@

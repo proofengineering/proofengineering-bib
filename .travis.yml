@@ -1,0 +1,13 @@
+language: java
+
+script: make test
+
+sudo: false
+addons:
+  apt:
+    packages:
+      - texlive
+      - texlive-latex-extra
+
+git:
+  depth: 9

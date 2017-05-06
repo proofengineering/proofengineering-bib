@@ -5,7 +5,7 @@
 BIB_ABBREVIATE ?= ./bib-abbreviate.pl
 
 # TODO: reinstate bibstring-crossrefs-abbrev.bib
-all: bibstring-unabbrev.bib bibstring-abbrev.bib bibroot docs/index.html
+all: bibstring-unabbrev.bib bibstring-abbrev.bib bibroot
 
 BIBFILES := $(shell ls *.bib | grep -v bibstring-unabbrev.bib | grep -v bibstring-abbrev.bib)
 

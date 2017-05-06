@@ -6,6 +6,5 @@ addons:
     packages:
       - texlive
       - texlive-latex-extra
-      - asciidoctor
 git:
   depth: 9

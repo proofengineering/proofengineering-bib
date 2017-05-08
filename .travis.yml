@@ -8,3 +8,5 @@ addons:
       - texlive-latex-extra
 git:
   depth: 9
+notifications:
+  email: false

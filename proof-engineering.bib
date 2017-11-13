@@ -522,7 +522,7 @@ keywords = {proof-organization, case-study},
   keywords = {proof-development},
 }
 
-@Inproceedings{Cruz-Filipe2003,
+@Inproceedings{CruzFilipe2003,
 author="Cruz-Filipe, Lu{\'i}s
 and Spitters, Bas",
 editor="Basin, David
@@ -968,7 +968,7 @@ keywords = {proof-organization},
 
 @Inproceedings{Paraskevopoulou2015,
 author="Paraskevopoulou, Zoe
-and Hri{\c{T}}cu, C{\u{a}}t{\u{a}}lin
+and Hrit{\c{c}}u, C{\u{a}}t{\u{a}}lin
 and D{\'e}n{\`e}s, Maxime
 and Lampropoulos, Leonidas
 and Pierce, Benjamin C.",
@@ -1276,7 +1276,7 @@ keywords = {foundations, proof-development, impact},
 @inproceedings{Yang2011,
  author = {Yang, Xuejun and Chen, Yang and Eide, Eric and Regehr, John},
  title = {Finding and Understanding Bugs in {C} Compilers},
- booktitle = {Proceedings of the 32Nd ACM SIGPLAN Conference on Programming Language Design and Implementation},
+ booktitle = {Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation},
  series = {PLDI '11},
  year = {2011},
  isbn = {978-1-4503-0663-8},
@@ -1738,13 +1738,13 @@ month={Nov},
 
 @misc{DeepSpec,
   title = {{DeepSpec} Project},
+  key = {DeepSpec},
   url = {https://deepspec.org},
-  year = {2017},
 }
 
 @InProceedings{CompanyCoq2016,
   Title        = {{Company-Coq}: Taking Proof General one step closer to a real {IDE}},
-  Author       = {Pit-Claudel, Clément and Courtieu, Pierre},
+  Author       = {Pit-Claudel, Cl{\'e}ment and Courtieu, Pierre},
   Booktitle    = {CoqPL'16: The Second International Workshop on Coq for PL},
   Year         = {2016},
   Month        = jan,
@@ -2025,11 +2025,11 @@ doi="10.1007/s001650050009",
 url="http://dx.doi.org/10.1007/s001650050009"
 }
 
-@inproceedings{Bertot2009,
+@inbook{Bertot2009,
 author = {Yves Bertot},
 title = {Theorem proving support in programming language semantics},
 editor = {Yves Bertot and G{\'e}rard Huet and Jean-Jacques L{\'e}vy and Gordon Plotkin},
-title = {From {S}emantics to {C}omputer {S}cience: {E}ssays in {H}onour of {G}illes {K}ahn},
+booktitle = {From {S}emantics to {C}omputer {S}cience: {E}ssays in {H}onour of {G}illes {K}ahn},
 publisher = {Cambridge University Press},
 year = {2009},
 pages = {337--361},
@@ -2394,7 +2394,7 @@ url="https://doi.org/10.1007/978-3-540-71067-7_11",
 }
 
 @InProceedings{schafer2015,
-  title={Autosubst: Reasoning with de Bruijn terms and parallel substitutions},
+  title={Autosubst: Reasoning with {de Bruijn} terms and parallel substitutions},
   author={Sch{\"a}fer, Steven and Tebbi, Tobias and Smolka, Gert},
   booktitle={International Conference on Interactive Theorem Proving},
   pages={359--374},
@@ -2403,7 +2403,7 @@ url="https://doi.org/10.1007/978-3-540-71067-7_11",
 }
 
 @article{owens2008,
-  title={A sound semantics for OCaml light},
+  title={A sound semantics for {OCaml Light}},
   author={Owens, Scott},
   journal={Programming Languages and Systems},
   pages={1--15},
@@ -2454,7 +2454,6 @@ year="2002",
 publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="181--196",
-abstract="In type-theory based proof systems that provide inductive structures, computation tools are automatically associated to inductive definitions. Choosing a particular representation for a given concept has a strong influence on proof structure. We propose a method to make the change from one representation to another easier, by systematically translating proofs from one context to another. We show how this method works by using it on natural numbers, for which a unary representation (based on Peano axioms) and a binary representation are available. This method leads to an automatic translation tool that we have implemented in Coq and successfully applied to several arithmetical theorems.",
 isbn="978-3-540-45842-5",
 doi="10.1007/3-540-45842-5_12",
 url="https://doi.org/10.1007/3-540-45842-5_12"
@@ -2502,7 +2501,6 @@ year="1994",
 publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="1--15",
-abstract="A tactic proof is a tree-structured sequent proof where steps may be justified by tactic programs. We describe a prototype of a generic interactive theorem-proving system that supports the construction and manipulation of tactic proofs containing metavariables. The emphasis is on proof reuse. Examples of proof reuse are proof by analogy and reconstruction of partial proofs as part of recovering from errors in definitions or in proof strategies. Our reuse operations involve solving higherorder unification problems, and their effectiveness relies on a proof-generalization step that is done after a tactic is applied. The prototype is implemented in $\lambda$Prolog.",
 isbn="978-3-540-48573-5",
 doi="10.1007/3-540-58216-9_25",
 url="https://doi.org/10.1007/3-540-58216-9_25"
@@ -2553,7 +2551,7 @@ title = {Generalization in Type Theory Based Proof Assistants}
     publisher        = {Springer},
     author           = {Bourke, Timothy and Daum, Matthias and Klein, Gerwin and Kolanski, Rafal},
     month            = jul,
-    editor           = {{Makarius Wenzel}},
+    editor           = {Makarius Wenzel},
     year             = {2012},
     keywords         = {large-scale proofs, isabelle/hol, interactive theorem proving},
     title            = {Challenges and Experiences in Managing Large-Scale Proofs},
@@ -2683,4 +2681,93 @@ url="https://doi.org/10.1007/978-3-319-21401-6_26"
  title = {{Coq} in {Coq}},
  year = {1997},
  note = {\url{http://www.lix.polytechnique.fr/Labo/Bruno.Barras/publi/coqincoq.pdf}}
+}
+
+@misc{coqhammer,
+ author = {L. Czajka and C. Kaliszyk.},
+ title = {{CoqHammer}: Automation for Dependent Type Theory},
+ year = {2017},
+ note = {\url{http://cl-informatik.uibk.ac.at/cek/coqhammer/}},
+}
+
+@Article{Kaliszyk2014,
+author="Kaliszyk, Cezary
+and Urban, Josef",
+title="Learning-Assisted Automated Reasoning with {Flyspeck}",
+journal="Journal of Automated Reasoning",
+year="2014",
+month="Aug",
+day="01",
+volume="53",
+number="2",
+pages="173--213",
+issn="1573-0670",
+doi="10.1007/s10817-014-9303-3",
+url="https://doi.org/10.1007/s10817-014-9303-3"
+}
+
+@Inproceedings{Appel2011,
+author="Appel, Andrew W.",
+editor="Barthe, Gilles",
+title="Verified Software Toolchain",
+bookTitle="Programming Languages and Systems: 20th European Symposium on Programming, ESOP 2011, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2011, Saarbr{\"u}cken, Germany, March 26--April 3, 2011. Proceedings",
+year="2011",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="1--17",
+isbn="978-3-642-19718-5",
+doi="10.1007/978-3-642-19718-5_1",
+url="https://doi.org/10.1007/978-3-642-19718-5_1"
+}
+
+@Inproceedings{Garillot2009,
+author="Garillot, Fran{\c{c}}ois
+and Gonthier, Georges
+and Mahboubi, Assia
+and Rideau, Laurence",
+editor="Berghofer, Stefan
+and Nipkow, Tobias
+and Urban, Christian
+and Wenzel, Makarius",
+title="Packaging Mathematical Structures",
+bookTitle="Theorem Proving in Higher Order Logics: 22nd International Conference, TPHOLs 2009, Munich, Germany, August 17-20, 2009. Proceedings",
+year="2009",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="327--342",
+isbn="978-3-642-03359-9",
+doi="10.1007/978-3-642-03359-9_23",
+url="https://doi.org/10.1007/978-3-642-03359-9_23"
+}
+
+@misc{MathComp,
+  title = {Mathematical Components Project},
+  key = {MathComp},
+  url = {https://math-comp.github.io/math-comp/},
+}
+
+@inproceedings{Gonthier2013b,
+ author = {Gonthier, Georges},
+ title = {Engineering Mathematics: The Odd Order Theorem Proof},
+ booktitle = {Proceedings of the 40th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
+ series = {POPL '13},
+ year = {2013},
+ isbn = {978-1-4503-1832-7},
+ location = {Rome, Italy},
+ pages = {1--2},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/2429069.2429071},
+ doi = {10.1145/2429069.2429071},
+ acmid = {2429071},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@Book{Nipkow2002,
+  author	= {Tobias Nipkow and Lawrence C. Paulson and Markus Wenzel},
+  title		= {{Isabelle/HOL} --- A Proof Assistant for Higher-Order Logic},
+  publisher	= {Springer},
+  series	= {LNCS},
+  volume	= 2283,
+  year		= 2002
 }

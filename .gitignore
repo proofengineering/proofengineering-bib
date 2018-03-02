@@ -8,3 +8,6 @@ mail
 .project
 webtest
 bib
+bibroot
+bibstring-abbrev.bib
+bibstring-unabbrev.bib

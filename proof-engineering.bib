@@ -2088,6 +2088,11 @@ month={Nov},
   url = {https://deepspec.org},
 }
 
+@misc{agdasemiring,
+  title={agda-tactics: Semiring},
+  url={http://github.com/xplat/agda-tactics/blob/master/Tactics/Nat/Semiring.agda}
+}
+
 @misc{isabelleafp,
   title={Archive of Formal Proofs: Submission Guidelines},
   url={https://www.isa-afp.org/submitting.html},
@@ -6665,7 +6670,7 @@ url="https://doi.org/10.1007/s10817-015-9357-x"
  address = {New York, NY, USA},
 }
 
-@Book{MartinLof1982,
+@Book{MartinLof1982a,
  author = {Martin-L{\"o}f, Per},
  title = {Intuitionistic Type Theory},
  publisher = {Bibliopolis},
@@ -6832,7 +6837,7 @@ doi="10.1007/BFb0014566",
   doi={10.1007/978-3-642-41582-1_10},
 }
 
-@incollection{MartinLof1982,
+@incollection{MartinLof1982b,
 title = "Constructive Mathematics and Computer Programming",
 editor = "L. Jonathan Cohen and Jerzy Los and Helmut Pfeiffer and Klaus-Peter Podewski",
 series = "Studies in Logic and the Foundations of Mathematics",
@@ -6855,4 +6860,151 @@ author = "Per Martin-L{\"o}f",
   year={2017},
   organization={Springer},
   doi = {10.1007/978-3-319-66107-0_1},
+}
+
+@inproceedings{claret2013lightweight,
+  title={Lightweight proof by reflection using a posteriori simulation of effectful computation},
+  author={Claret, Guillaume and Huesca, Lourdes del Carmen Gonz{\'a}lez and R{\'e}gis-Gianas, Yann and Ziliani, Beta},
+  booktitle={International Conference on Interactive Theorem Proving},
+  pages={67--83},
+  year={2013},
+  organization={Springer}
+}
+
+@inproceedings{Pollack1994,
+ author = {Pollack, Robert},
+ title = {On Extensibility of Proof Checkers},
+ booktitle = {Selected Papers from the International Workshop on Types for Proofs and Programs},
+ series = {TYPES '94},
+ year = {1995},
+ isbn = {3-540-60579-7},
+ pages = {140--161},
+ numpages = {22},
+ url = {http://dl.acm.org/citation.cfm?id=646535.695846},
+ acmid = {695846},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+} 
+
+@inproceedings{Demers95reflectionin,
+    author = {François-Nicola Demers and Jacques Malenfant},
+    title = {Reflection in logic, functional and object-oriented programming: a Short Comparative Study},
+    booktitle = {In IJCAI '95 Workshop on Reflection and Metalevel Architectures and their Applications in AI},
+    year = {1995},
+    pages = {29--38}
+}
+
+@techreport{harrison-reflection,
+        author          = "John Harrison",
+        title           = "Metatheory and Reflection in Theorem Proving:
+                           A Survey and Critique",
+        institution     = "SRI Cambridge",
+        address         = "Millers Yard, Cambridge, UK",
+        year            = 1995,
+        type            = "Technical Report",
+        number          = "CRC-053",
+        note            = "Available on the Web as
+ {\verb+http://www.cl.cam.ac.uk/~jrh13/papers/reflect.dvi.gz+}"}
+
+@inproceedings{lescuyer2009improving,
+  title={Improving Coq propositional reasoning using a lazy CNF conversion scheme},
+  author={Lescuyer, St{\'e}phane and Conchon, Sylvain},
+  booktitle={International Symposium on Frontiers of Combining Systems},
+  pages={287--303},
+  year={2009},
+  organization={Springer}
+}
+
+@article{paulson1999generic,
+  title={A generic tableau prover and its integration with Isabelle},
+  author={Paulson, Lawrence C},
+  journal={Journal of Universal Computer Science},
+  volume={5},
+  number={3},
+  pages={73--87},
+  year={1999}
+}
+
+@article{hurd2003first,
+  title={First-order proof tactics in higher-order logic theorem provers},
+  author={Hurd, Joe},
+  journal={Design and Application of Strategies/Tactics in Higher Order Logics, number NASA/CP-2003-212448 in NASA Technical Reports},
+  pages={56--68},
+  year={2003}
+}
+
+@inproceedings{kumar1991integrating,
+  title={Integrating a first-order automatic prover in the HOL environment},
+  author={Kumar, Ramayya and Kropf, Thomas and Schneider, Klaus},
+  booktitle={1991 International Workshop on the HOL Theorem Proving System and Its Applications},
+  pages={170--176},
+  year={1991},
+  organization={IEEE}
+}
+
+@incollection{busch1994first,
+  title={First-order automation for higher-order-logic theorem proving},
+  author={Busch, Holger},
+  booktitle={Higher Order Logic Theorem Proving and Its Applications},
+  pages={97--112},
+  year={1994},
+  publisher={Springer}
+}
+
+@inproceedings{dahn1997integration,
+  title={Integration of automated and interactive theorem proving in {ILF}},
+  author={Dahn, Bernd I and Gehne, J{\"u}rgen and Honigmann, Th and Wolf, Andreas},
+  booktitle={International Conference on Automated Deduction},
+  pages={57--60},
+  year={1997},
+  organization={Springer}
+}
+
+@inproceedings{hurd1999integrating,
+  title={Integrating {Gandalf} and {HOL}},
+  author={Hurd, Joe},
+  booktitle={International Conference on Theorem Proving in Higher Order Logics},
+  pages={311--321},
+  year={1999},
+  organization={Springer}
+}
+
+@article{bezem2002automated,
+  title={Automated proof construction in type theory using resolution},
+  author={Bezem, Marc and Hendriks, Dimitri and De Nivelle, Hans},
+  journal={Journal of Automated Reasoning},
+  volume={29},
+  number={3},
+  pages={253--275},
+  year={2002},
+  publisher={Springer}
+}
+
+@article{nipkow1989term,
+  title={Term rewriting and beyond--theorem proving in {Isabelle}},
+  author={Nipkow, Tobias},
+  journal={Formal Aspects of Computing},
+  volume={1},
+  number={1},
+  pages={320--338},
+  year={1989},
+  publisher={Springer}
+}
+
+@inproceedings{mcbride1996inverting,
+  title={Inverting inductively defined relations in {LEGO}},
+  author={McBride, Conor},
+  booktitle={International Workshop on Types for Proofs and Programs},
+  pages={236--253},
+  year={1996},
+  organization={Springer}
+}
+
+@inproceedings{cornes1995automating,
+  title={Automating inversion of inductive predicates in {Coq}},
+  author={Cornes, Cristina and Terrasse, Delphine},
+  booktitle={International Workshop on Types for Proofs and Programs},
+  pages={85--104},
+  year={1995},
+  organization={Springer},
 }

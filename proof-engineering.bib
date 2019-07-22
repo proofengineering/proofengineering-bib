@@ -48,7 +48,8 @@ keywords = {applications, proof-organization},
   title={Engineering a compiler},
   author={Cooper, Keith and Torczon, Linda},
   year={2011},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  doi={10.1016/C2009-0-27982-7},
 }
 
 @book{Cachin2011,
@@ -57,7 +58,8 @@ keywords = {applications, proof-organization},
  year = {2011},
  isbn = {3642152597, 9783642152597},
  edition = {2nd},
- publisher = {Springer Publishing Company, Incorporated},
+ publisher = {Springer},
+ doi = {10.1007/978-3-642-15260-3},
 }
 
 @misc{coq-critical,
@@ -175,31 +177,32 @@ keywords = {applications, proof-organization}
   school={UC San Diego}
 }
 
-@inproceedings{Bundy1998,
- author = {Bundy, Alan},
- title = {The Use of Explicit Plans to Guide Inductive Proofs},
- booktitle = {Proceedings of the 9th International Conference on Automated Deduction},
- year = {1988},
- isbn = {3-540-19343-X},
- pages = {111--120},
- numpages = {10},
- url = {http://dl.acm.org/citation.cfm?id=648228.752123},
- acmid = {752123},
- publisher = {Springer-Verlag},
- address = {London, UK, UK},
-} 
+@InProceedings{Bundy1998,
+author="Bundy, Alan",
+SKIPeditor="Lusk, Ewing
+and Overbeek, Ross",
+title="The use of explicit plans to guide inductive proofs",
+booktitle="9th International Conference on Automated Deduction",
+year="1988",
+publisher="Springer",
+address="Berlin, Heidelberg",
+pages="111--120",
+isbn="978-3-540-39216-3",
+doi="10.1007/BFb0012826",
+}
 
-@book{dietrich2011,
+@phdthesis{dietrich2011,
   title={Assertion level proof planning with compiled strategies},
   author={Dietrich, Dominik},
-  year={2011}
+  year={2011},
+  institution = {Universit\"at des Saarlandes},
 }
 
 @phdthesis{opdyke1992,
   title={Refactoring: A program restructuring aid in designing object-oriented application frameworks},
   author={Opdyke, William F},
   year={1992},
-  school={PhD thesis, University of Illinois at Urbana-Champaign}
+  institution={University of Illinois at Urbana-Champaign}
 }
 
 @book{de1998data,
@@ -477,22 +480,28 @@ doi="10.1007/978-3-540-30142-4_17",
   MONTH = Mar,
 }
 
-@incollection{slind1994ac,
-  title={{AC} unification in {HOL90}},
-  author={Slind, Konrad},
-  booktitle={Higher Order Logic Theorem Proving and Its Applications},
-  pages={437--449},
-  year={1994},
-  publisher={Springer}
+@InProceedings{slind1994ac,
+author="Slind, Konrad",
+editor="Joyce, Jeffrey J.
+and Seger, Carl-Johan H.",
+title="{AC} unification in {HOL90}",
+booktitle="Higher Order Logic Theorem Proving and Its Applications",
+year="1994",
+publisher="Springer",
+address="Berlin, Heidelberg",
+pages="437--449",
+isbn="978-3-540-48346-5",
+doi="10.1007/3-540-57826-9_154",
 }
 
-@inproceedings{nipkow1990,
-  title={Proof transformations for equational theories},
-  author={Nipkow, Tobias},
-  booktitle={Logic in Computer Science, 1990. LICS'90, Proceedings., Fifth Annual IEEE Symposium on e},
-  pages={278--288},
-  year={1990},
-  organization={IEEE}
+@INPROCEEDINGS{nipkow1990,
+author={Nipkow, Tobias},
+booktitle={[1990] Proceedings. Fifth Annual IEEE Symposium on Logic in Computer Science},
+title={Proof transformations for equational theories},
+year={1990},
+pages={278--288},
+doi={10.1109/LICS.1990.113754},
+month={June},
 }
 
 @InProceedings{gregoire2005,
@@ -816,7 +825,8 @@ doi="10.1007/978-3-319-22102-1_11",
   volume={1},
   number={1},
   pages={165--167},
-  year={1990}
+  year={1990},
+  url = {http://mizar.org/JFM/Vol1/finset_1.html},
 }
 
 @article{bancerek1990fundamental,
@@ -4687,22 +4697,22 @@ doi="10.1007/3-540-44755-5_26",
   bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 
-@inproceedings{Dietrich2013,
+@InProceedings{Dietrich2013,
 author="Dietrich, Dominik
 and Whiteside, Iain
 and Aspinall, David",
 SKIPeditor="McMillan, Ken
 and Middeldorp, Aart
 and Voronkov, Andrei",
-title="{Polar}: A Framework for Proof Refactoring",
+title="Polar: A Framework for Proof Refactoring",
 booktitle="Logic for Programming, Artificial Intelligence, and Reasoning",
 year="2013",
 publisher="Springer",
 address="Berlin, Heidelberg",
 pages="776--791",
-abstract="We present a prototype refactoring framework based on graph rewriting and bidirectional transformations that is designed to be generic, extensible, and declarative. Our approach uses a language-independent graph meta-model to represent proof developments in a generic way. We use graph rewriting to enrich the meta-model with dependency information and to perform refactorings, which are written as declarative rewrite rules. Our framework, called Polar, is implemented in the GrGen rewriting engine.",
 isbn="978-3-642-45221-5",
-keywords = {Cproof-development},
+doi="10.1007/978-3-642-45221-5_52",
+keywords = {proof-development},
 }
 
 @InProceedings{adams2015,
@@ -5076,6 +5086,7 @@ doi="10.1007/978-3-642-54833-8_16",
  isbn = {3540741127},
  publisher = {Springer-Verlag},
  address = {Berlin, Heidelberg},
+ doi={10.1007/978-3-540-74113-8},
 } 
 
 @book{Kroening2008,
@@ -6769,23 +6780,27 @@ SKIPurl="https://doi.org/10.1007/BF01211457"
 }
 
 @InProceedings{Letouzey2008,
- author = {Pierre Letouzey},
- title = {{Coq Extraction, an Overview}},
- booktitle = {{Logic and Theory of Algorithms, Fourth Conference on Computability in Europe, CiE 2008}},
- SKIPeditor = {A. Beckmann and C. Dimitracopoulos and B. L{\"o}we},
- volume = 5028,
- publisher =    {Springer-Verlag},
- series =       {Lecture Notes in Computer Science},
- year = 2008
+author="Letouzey, Pierre",
+SKIPeditor="Beckmann, Arnold
+and Dimitracopoulos, Costas
+and L{\"o}we, Benedikt",
+title="Extraction in {Coq}: An Overview",
+booktitle="Logic and Theory of Algorithms",
+year="2008",
+publisher="Springer",
+address="Berlin, Heidelberg",
+pages="359--369",
+isbn="978-3-540-69407-6",
+doi="10.1007/978-3-540-69407-6_39",
 }
 
 @phdthesis{Letouzey2004,
   author       = "Pierre Letouzey",
   month        = jul,
   school       = "Universite Paris-Sud",
-  title        = "Programmation fonctionnelle certifiee -- L'extraction de programmes dans l'assistant {Coq}",
+  title        = "Certified functional programming: Program extraction within {Coq} proof assistant",
   year         = "2004",
-  url          = "https://www.irif.fr/~letouzey/download/these_letouzey.pdf",
+  url          = "https://www.irif.fr/~letouzey/download/these_letouzey_English.pdf",
 }
 
 @phdthesis{Paulin1989,
@@ -7087,7 +7102,6 @@ doi="10.1007/978-3-319-19797-5_13",
  address = {New York, NY, USA},
 }
 
-
 @inproceedings{Jones:IFIP83,
   author    = {Cliff B. Jones},
   title     = {Specification and Design of (Parallel) Programs},
@@ -7097,10 +7111,19 @@ doi="10.1007/978-3-319-19797-5_13",
 }
 
 @inproceedings{Feng:POPL09,
-  author    = {Xinyu Feng},
-  title     = {Local rely-guarantee reasoning},
-  pages     = {315--327},
-  crossref  = {POPL:09},
+ author = {Feng, Xinyu},
+ title = {Local Rely-guarantee Reasoning},
+ booktitle = {Proceedings of the 36th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
+ series = {POPL '09},
+ year = {2009},
+ isbn = {978-1-60558-379-2},
+ location = {Savannah, GA, USA},
+ pages = {315--327},
+ numpages = {13},
+ SKIPurl = {http://doi.acm.org/10.1145/1480881.1480922},
+ doi = {10.1145/1480881.1480922},
+ publisher = {ACM},
+ address = {New York, NY, USA},
 }
 
 @InProceedings{Sozeau-Tabareau:ITP14,
@@ -7687,12 +7710,21 @@ month = {may}
 }
 
 @inproceedings{bounov2018inferring,
-  title={Inferring Loop Invariants through Gamification},
-  author={Bounov, Dimitar and DeRossi, Anthony and Menarini, Massimiliano and Griswold, William G. and Lerner, Sorin},
-  booktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
-  pages={231},
-  year={2018},
-  organization={ACM}
+ author = {Bounov, Dimitar and DeRossi, Anthony and Menarini, Massimiliano and Griswold, William G. and Lerner, Sorin},
+ title = {Inferring Loop Invariants Through Gamification},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '18},
+ year = {2018},
+ isbn = {978-1-4503-5620-6},
+ location = {Montreal QC, Canada},
+ pages = {231:1--231:13},
+ articleno = {231},
+ numpages = {13},
+ SKIPurl = {http://doi.acm.org/10.1145/3173574.3173805},
+ doi = {10.1145/3173574.3173805},
+ acmid = {3173805},
+ publisher = {ACM},
+ address = {New York, NY, USA},
 }
 
 @article{Hendriks2010,
@@ -7815,14 +7847,21 @@ SKIPURL = {http://dx.doi.org/10.1016/S0953-5438(99)00023-5},
   publisher = {North-Holland Publishing Company},
 }
 
-@article{Aspinall2010,
- author= {David Aspinall and Ewen Denney and Christoph L\"uth},
- title= {Tactics for Hierarchical Proofs},
- journal= {Mathematics in Computer Science},
- volume= {3},
- pages= {309--330},
- publisher= {Birkh\"auser},
- year= {2010},
+@Article{Aspinall2010,
+author="Aspinall, David
+and Denney, Ewen
+and L{\"u}th, Christoph",
+title="Tactics for Hierarchical Proof",
+journal="Mathematics in Computer Science",
+year="2010",
+month="May",
+day="01",
+volume="3",
+number="3",
+pages="309--330",
+issn="1661-8289",
+doi="10.1007/s11786-010-0025-6",
+SKIPurl="https://doi.org/10.1007/s11786-010-0025-6"
 }
 
 @InProceedings{Ring2014,
@@ -8359,31 +8398,44 @@ doi="10.1007/3-540-60579-7_8",
   year={2003}
 }
 
-@inproceedings{kumar1991integrating,
-  title={Integrating a first-order automatic prover in the HOL environment},
-  author={Kumar, Ramayya and Kropf, Thomas and Schneider, Klaus},
-  booktitle={1991 International Workshop on the HOL Theorem Proving System and Its Applications},
-  pages={170--176},
-  year={1991},
-  organization={IEEE}
+@INPROCEEDINGS{kumar1991integrating,
+author={Kumar, Ramayya and Kropf, Thomas and Schneider, Klaus},
+booktitle={1991 International Workshop on the HOL Theorem Proving System and Its Applications},
+title={Integrating A First-order Automatic prover In The {HOL} Environment},
+year={1991},
+pages={170--176},
+doi={10.1109/HOL.1991.596284},
+month={Aug},
 }
 
-@incollection{busch1994first,
-  title={First-order automation for higher-order-logic theorem proving},
-  author={Busch, Holger},
-  booktitle={Higher Order Logic Theorem Proving and Its Applications},
-  pages={97--112},
-  year={1994},
-  publisher={Springer}
+@InProceedings{busch1994first,
+author="Busch, Holger",
+SKIPeditor="Melham, Thomas F.
+and Camilleri, Juanito",
+title="First-order automation for higher-order-logic theorem proving",
+booktitle="Higher Order Logic Theorem Proving and Its Applications",
+year="1994",
+publisher="Springer",
+address="Berlin, Heidelberg",
+pages="97--112",
+isbn="978-3-540-48803-3",
+doi="10.1007/3-540-58450-1_37",
 }
 
-@inproceedings{dahn1997integration,
-  title={Integration of automated and interactive theorem proving in {ILF}},
-  author={Dahn, Bernd I and Gehne, J{\"u}rgen and Honigmann, Th and Wolf, Andreas},
-  booktitle={International Conference on Automated Deduction},
-  pages={57--60},
-  year={1997},
-  organization={Springer}
+@InProceedings{dahn1997integration,
+author="Dahn, B. I.
+and Gehne, J.
+and Honigmann, Th.
+and Wolf, A.",
+SKIPeditor="McCune, William",
+title="Integration of automated and interactive theorem proving in {ILF}",
+booktitle="Automated Deduction---CADE-14",
+year="1997",
+publisher="Springer",
+address="Berlin, Heidelberg",
+pages="57--60",
+isbn="978-3-540-69140-2",
+doi="10.1007/3-540-63104-6_7",
 }
 
 @inproceedings{hurd1999integrating,
@@ -9946,17 +9998,21 @@ isbn="978-3-662-43613-4"
  publisher = {ACM},
  address = {New York, NY, USA},
  keywords = {education in programming, programming techniques, stepwise program construction},
-} 
+}
 
-@article{back1988calculus,
-  title={A calculus of refinements for program derivations},
-  author={Back, Ralph-JR},
-  journal={Acta Informatica},
-  volume={25},
-  number={6},
-  pages={593--624},
-  year={1988},
-  publisher={Springer}
+@Article{back1988calculus,
+author="Back, R. J. R.",
+title="A calculus of refinements for program derivations",
+journal="Acta Informatica",
+year="1988",
+month="Aug",
+day="01",
+volume="25",
+number="6",
+pages="593--624",
+issn="1432-0525",
+doi="10.1007/BF00291051",
+SKIPurl="https://doi.org/10.1007/BF00291051"
 }
 
 @InProceedings{vonwright1994,
@@ -9965,11 +10021,11 @@ SKIPeditor="Till, David",
 title="Program Refinement by Theorem Prover",
 booktitle="6th Refinement Workshop",
 year="1994",
-publisher="Springer London",
+publisher="Springer",
 address="London",
 pages="121--150",
-abstract="We describe a prototype tool for developing programs by stepwise refinement in a weakest precondition framework, based on the HOL theorem proving system. Our work is based on a mechanisation of the refinement calculus, which is a theory of correctness preserving program transformations. We also use a tool for window inference that is part of the HOL system. Our tool permits subcomponents of a program to be refined separately, and the tool keeps track of the overall effects of each individual refinement. In particular, we show how specifications can be refined into code and how data refinements (i.e., replacing an abstract data structure with one that is more concrete) can be handled. All refinements are proved as theorems in the HOL logic, so our system is in fact a secure environment for program development.",
-isbn="978-1-4471-3240-0"
+isbn="978-1-4471-3240-0",
+doi="10.1007/978-1-4471-3240-0_7",
 }
 
 @InProceedings{Liu2011,
@@ -9979,14 +10035,14 @@ and Wang, Shuling",
 SKIPeditor="Davies, Jim
 and Silva, Leila
 and Simao, Adenilso",
-title="A Graph-Based Implementation for Mechanized Refinement Calculus of OO Programs",
+title="A Graph-Based Implementation for Mechanized Refinement Calculus of {OO} Programs",
 booktitle="Formal Methods: Foundations and Applications",
 year="2011",
 publisher="Springer",
 address="Berlin, Heidelberg",
 pages="258--273",
-abstract="This paper extends the mechanization of the refinement calculus done by von Wright in HOL, representing the state of a program as a graph instead of a tuple, in order to deal with object-orientation. The state graph structure is implemented in Isabelle, together with definitions and lemmas, to help the manipulation of states. We then show how proof obligations are automatically generated from the rCOS tool and can be loaded in Isabelle to be proved. We illustrate our approach by generating the proof obligations for a simple example, including object access and method invocation.",
-isbn="978-3-642-19829-8"
+isbn="978-3-642-19829-8",
+doi="10.1007/978-3-642-19829-8_17",
 }
 
 @InProceedings{hemer2001,
@@ -10001,22 +10057,22 @@ year="2001",
 publisher="Springer",
 address="Berlin, Heidelberg",
 pages="249--260",
-abstract="This paper describes a deep embedding of a refinement calculus for logic programs in Isabelle/HOL. It extends a previous tool with support for procedures and recursion. The tool supports refinement in context, and a number of window-inference tactics that ease the burden on the user. In this paper, we also discuss the insights gained into the suitability of different logics for embedding refinement calculii (applicable to both declarative and imperative paradigms). In particular, we discuss the richness of the language, choice between typed and untyped logics, automated proof support, support for user-defined tactics, and representation of program states.",
-isbn="978-3-540-44755-9"
+isbn="978-3-540-44755-9",
+doi="10.1007/3-540-44755-5_18",
 }
 
 @InProceedings{back1991,
 author="Back, R. J. R.",
-editor="Morris, Joseph M.
+SKIPeditor="Morris, Joseph M.
 and Shaw, Roger C.",
 title="Refinement Diagrams",
 booktitle="4th Refinement Workshop",
 year="1991",
-publisher="Springer London",
+publisher="Springer",
 address="London",
 pages="125--137",
-abstract="We consider the problem of structuring and managing large program derivations. A graphical way of structuring such derivations, refinement diagrams, are proposed. A browsing and outlining facility for refinement diagrams is also described.",
-isbn="978-1-4471-3756-6"
+isbn="978-1-4471-3756-6",
+doi="10.1007/978-1-4471-3756-6_7",
 }
 
 @techreport{Lynch1994,
